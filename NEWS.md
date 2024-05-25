@@ -1,0 +1,41 @@
+# box.linters 0.9.0
+
+* Handle box-exported functions and objects
+* Handle functional programming, cloned functions, curried functions
+* R6 class awareness
+* Very basic handling of objects inside function definitions
+  * Data objects inside function definitions should not lint
+  * Functions passed as arguments and used inside function definitions should not lint
+  * List data objects passed into functions should not lint
+  * Functions in lists should not lint. _Same `x$y()` pattern as `package$function()`_
+  * ... in function signature should not lint.
+* Test for dplyr column names
+* Rationalize file names
+* Linting on `box::use(local_module)` patterns
+  * All box-attached modules with or without aliases should be used
+  * All box-attached module functions with or without aliases should be used
+  * Catches non-existing `module[function]` or `module[data_object]` imports
+  * Catches non-existing `module$function()` or `module$data_object` calls
+  * Catches functions that are not box-imported
+* Linting on `box::use(package)` patterns
+  * All box-attached packages with or without aliases should be used
+  * All box-attached functions with or without aliases should be used
+  * Catches non-existing `package[function]` imports
+  * Catches non-existing `package$function()` calls
+  * Catches functions that are not box-imported
+* Local source linting
+  * Catches functions that are not defined
+  * All defined functions should be used
+  * Handles internal R6 class object calls
+* Added `rhino_default_linters`
+* Migrated existing box linters from rhino 1.7.0
+  * Import calls should be alphabetical
+  * Maximum quantity of function imports
+  * Separate packages and modules
+  * Enforce trailing commas
+  * Block universal [...] imports
+* Added a `NEWS.md` file to track changes to the package.
+
+# box.linters 0.0.0
+
+* Create box.linters
