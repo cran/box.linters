@@ -1,3 +1,14 @@
+# box.linters 0.9.1
+
+* Handle `box` recommended method of testing private methods.
+* Added handler for `glue` string templates.
+* Added box_mod_fun_exists_linter() to default linters 
+* [bug fix] box_trailing_commas_linter() now properly handles a #nolint for other linters
+* [bug fix] `box_unused_att_pkg_fun_linter()` had issues with lists of functions. Linter function
+  now drops the nested function name and retains the list name (`list_name$function_name()`) when
+  performing the check.
+* [bug fix] `get_attached_modules()` was not properly finding whole modules attached with short `path/module` declarations
+
 # box.linters 0.9.0
 
 * Handle box-exported functions and objects
