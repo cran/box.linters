@@ -1,6 +1,6 @@
-c4cd11454392a80a927aebdb18108863 *DESCRIPTION
+7c8f2341eb4956f3f8f1cb2ea96f161e *DESCRIPTION
 cd42376ba76e596b9efbb26204335b2b *NAMESPACE
-456b760396d021ec241440cd1844b266 *NEWS.md
+cbdfdbf841263469b4cad1faad0c4e39 *NEWS.md
 3a80c8aa2f524aa4ada7a10f7bc2f0e4 *R/aaa.R
 ba31323eba7f9da800f204318e4ca493 *R/box_alphabetical_calls_linter.R
 bb6ff276e4d6eaaea40f9dabbbbe83dd *R/box_func_import_count_linter.R
@@ -21,7 +21,7 @@ aa7d5a94f157e666388bc143bef8bcc8 *R/get_box_module_exports.R
 59780fa9be883191ce3c7ee87bda9f7a *R/get_objects_in_strings.R
 06729b61ffb9d26b4faa1839266b2aab *R/namespaced_function_calls.R
 5424be8948f66cf42bde08529a35ec88 *R/r6_usage_linter.R
-0335a12a114e7e3c8e9c0f9a16d2b085 *R/style_box_use.R
+b965a5f6af3f4f34764157d930712a32 *R/style_box_use.R
 b48c62be9044ad9ff4d7e9aba98d76d2 *R/style_ts_queries.R
 6143fb58ec4ff722cea0a2bc44cad9d2 *R/unused_declared_object_linter.R
 4acb8f559d7190b3abf16a56cf1cbcca *R/use_box_lintr.R
@@ -70,7 +70,7 @@ efad4030286f9a28ebb3dc87041118bc *man/get_r6_components.Rd
 2a2ffc39566fb26c41bd89ec75d6b0b9 *man/namespaced_function_calls.Rd
 e2c4704681882b8801fdae997c866677 *man/r6_usage_linter.Rd
 a2ea2cb7721006f8771950999f214a68 *man/rhino_default_linters.Rd
-bf93d84888801cbfd68ed27fbb89c966 *man/style_box_use_dir.Rd
+4efba038bd61a39db44c74dd64ef657a *man/style_box_use_dir.Rd
 bceaddbacfd251f3c25d5afe0b3fde20 *man/style_box_use_file.Rd
 161056e6c3b29bbc78a29e30f2b1c783 *man/style_box_use_text.Rd
 b26d33577a95313496b0467c3980edb7 *man/unused_declared_object_linter.Rd
@@ -117,11 +117,12 @@ d467be4947e2989388a6b36956eaccee *tests/testthat/test-get_box_module_exports.R
 c67e2dabc33e227c241cb41d6b72dcbc *tests/testthat/test-linter_tags.R
 2677fb47670a5526141ecad70e4cd5ef *tests/testthat/test-namespaced_function_calls.R
 917c87e4a88e3b13629df16372ef1174 *tests/testthat/test-r6_usage_linter.R
-23607dae2028936a76ca651384b5029a *tests/testthat/test-style_box_use.R
+f639e151ba1fd5d46d88c7361adb4abb *tests/testthat/test-style_box_use.R
 e5a725ddd227ebfc9ef84b7d336b0142 *tests/testthat/test-universal_import_linter.R
 cf3bda44543bce32d22c5116d921c94e *tests/testthat/test-unused_declared_object_linter.R
 ebe8edfb25f8e90388b5450d00df0a81 *tests/testthat/test-use_box_lintr.R
 6407b7b52263c2ff0a10a6a0ed008db3 *tests/testthat/test-zzz.R
+b4e3eaa0e7c6e8f1b379a78312e45e39 *tests/testthat/to_style/app/__init__.R
 a8edbb9ef05232d59b9edfe194a7d5bd *tests/testthat/to_style/app/app_1.R
 714e60f8e9014d5789f3f1a1d1a93904 *tests/testthat/to_style/main.R
 589825f24756405ec9b3496cd96ad0f9 *tests/testthat/to_style/packrat/no_style.R
