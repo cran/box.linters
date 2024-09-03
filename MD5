@@ -1,6 +1,6 @@
-7c8f2341eb4956f3f8f1cb2ea96f161e *DESCRIPTION
+9b308aab5ceee38ad074f13e122bca4d *DESCRIPTION
 cd42376ba76e596b9efbb26204335b2b *NAMESPACE
-cbdfdbf841263469b4cad1faad0c4e39 *NEWS.md
+e7a6d396a621a011a44cdf2886d93c63 *NEWS.md
 3a80c8aa2f524aa4ada7a10f7bc2f0e4 *R/aaa.R
 ba31323eba7f9da800f204318e4ca493 *R/box_alphabetical_calls_linter.R
 bb6ff276e4d6eaaea40f9dabbbbe83dd *R/box_func_import_count_linter.R
@@ -19,14 +19,14 @@ bcc2f5d48d0b16ef1ef3e1bfde3acb8e *R/box_usage_helper_functions.R
 97f092136e6b4d4dcff9024ac3f6f22a *R/box_usage_linter.R
 aa7d5a94f157e666388bc143bef8bcc8 *R/get_box_module_exports.R
 59780fa9be883191ce3c7ee87bda9f7a *R/get_objects_in_strings.R
-06729b61ffb9d26b4faa1839266b2aab *R/namespaced_function_calls.R
+7a29fb3f49b791a58cbf050b7098e15d *R/namespaced_function_calls.R
 5424be8948f66cf42bde08529a35ec88 *R/r6_usage_linter.R
-b965a5f6af3f4f34764157d930712a32 *R/style_box_use.R
+02d08128fb6a425761f326e4099aa40f *R/style_box_use.R
 b48c62be9044ad9ff4d7e9aba98d76d2 *R/style_ts_queries.R
 6143fb58ec4ff722cea0a2bc44cad9d2 *R/unused_declared_object_linter.R
 4acb8f559d7190b3abf16a56cf1cbcca *R/use_box_lintr.R
-ffb25df9dccf58b73c2aab9590fedd9d *R/zzz.R
-59321d54876a43bb7b5a1f55eb457b6b *inst/WORDLIST
+c8bc9ffd106ed34303cd28d10b9b1689 *R/zzz.R
+0937ac3255c44faa2b80f869fceb69f3 *inst/WORDLIST
 bcbb0c6a3854648ae2e73397ec4a32a3 *inst/dot.lintr
 26df45c2117dfee27d2f0b1e53756bdb *inst/lintr/linters.csv
 8b546f4efc9899f15843c91b3fd5ca65 *man/box_alphabetical_calls_linter.Rd
@@ -117,7 +117,7 @@ d467be4947e2989388a6b36956eaccee *tests/testthat/test-get_box_module_exports.R
 c67e2dabc33e227c241cb41d6b72dcbc *tests/testthat/test-linter_tags.R
 2677fb47670a5526141ecad70e4cd5ef *tests/testthat/test-namespaced_function_calls.R
 917c87e4a88e3b13629df16372ef1174 *tests/testthat/test-r6_usage_linter.R
-f639e151ba1fd5d46d88c7361adb4abb *tests/testthat/test-style_box_use.R
+2a0516a509a136987f882d30385e4df3 *tests/testthat/test-style_box_use.R
 e5a725ddd227ebfc9ef84b7d336b0142 *tests/testthat/test-universal_import_linter.R
 cf3bda44543bce32d22c5116d921c94e *tests/testthat/test-unused_declared_object_linter.R
 ebe8edfb25f8e90388b5450d00df0a81 *tests/testthat/test-use_box_lintr.R
