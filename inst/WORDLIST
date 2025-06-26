@@ -12,6 +12,7 @@ Treesitter
 XPath
 appsilon
 config
+destructure
 dplyr
 linter
 linters
@@ -19,4 +20,5 @@ lintr
 nolint
 preconfigured
 prettycode
+styler
 treesitter

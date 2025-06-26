@@ -1,3 +1,14 @@
+# box.linters 0.10.6
+
+* The `box_unused_attached_pkg_linter()` now correctly recognizes list elements accessed via `$` as valid uses of an attached package. (#148)
+* `box_unused_attached_mod_linter()` now handles errors gracefully when a module does not exist. (#108)
+* Now respects the `box` convention that "nothing exported means export all". (#166)
+* Introduces support for destructure operator `%<-%`
+* Now handles non-syntactic names for object names, function definitions, and module references (#147, #151)
+* Resolved a false-positive lint triggered by calling a function argument via list notation. (#131)
+* Alphabetical sorting now uses the `radix` method, ensuring consistent behavior across systems. (#168)
+* Fixed a bug in styling that caused issues when the source code contained no empty lines. (#134)
+
 # box.linters 0.10.5
 
 * Fix for `treesitter.r` update to version 1.1.0. Change in how treesitter returns the start row of the program node. (#143)
